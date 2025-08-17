@@ -18,6 +18,6 @@ public class MotorController : MonoBehaviour
     {
         if (!powered || !wheel) return;
         float degreesPerSec = rpm * 6f; // 360 * rpm / 60
-        wheel.Rotate(Vector3.right, degreesPerSec * direction * Time.deltaTime, Space.Self);
+        wheel.Rotate(Vector3.up, degreesPerSec * direction * Time.deltaTime, Space.Self);
     }
 }
