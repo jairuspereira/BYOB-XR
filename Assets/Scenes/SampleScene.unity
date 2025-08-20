@@ -1838,7 +1838,7 @@ Transform:
   m_GameObject: {fileID: 972124561}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 0, z: 0}
+  m_LocalPosition: {x: -4.5, y: 0, z: -19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1860,7 +1860,7 @@ MonoBehaviour:
   m_InteractionLayers:
     m_Bits: 8
   m_Handedness: 0
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 972124562}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -1909,8 +1909,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 1.140397
+  m_Center: {x: 0, y: 0, z: 1.3844979}
 --- !u!114 &972124565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2169,7 +2169,7 @@ Transform:
   m_GameObject: {fileID: 1113597648}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.95, y: 0, z: 0}
+  m_LocalPosition: {x: -3.95, y: 0.22, z: -13.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2191,7 +2191,7 @@ MonoBehaviour:
   m_InteractionLayers:
     m_Bits: 8
   m_Handedness: 0
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 1113597649}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -2240,8 +2240,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 1.1241676
+  m_Center: {x: 0, y: 0, z: 0.36674935}
 --- !u!114 &1113597652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3238,7 +3238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015523143}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.51554424, y: 1.5769293, z: -0.017993433}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3717,6 +3717,10 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 2015523145}
+    - target: {fileID: 3265321401594021321, guid: d33e03c25632b45028584c641680119d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0336
+      objectReference: {fileID: 0}
     - target: {fileID: 3284320604987929836, guid: d33e03c25632b45028584c641680119d, type: 3}
       propertyPath: m_Name
       value: Battery
@@ -3765,6 +3769,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9215507334782146768, guid: d33e03c25632b45028584c641680119d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0342
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3778,6 +3786,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2528928634411420326, guid: cf2e227b82f6e4bd8a3d6a6f4829a75e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7186b4ffc11614c5286c541c940c872b, type: 2}
     - target: {fileID: 8747057667206378449, guid: cf2e227b82f6e4bd8a3d6a6f4829a75e, type: 3}
       propertyPath: m_Name
       value: Motor_1
